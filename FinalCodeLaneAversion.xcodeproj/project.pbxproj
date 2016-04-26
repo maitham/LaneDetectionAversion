@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D67EE0FE1CCFD69400344E19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67EE0FD1CCFD69400344E19 /* main.cpp */; };
+		D67EE1101CCFD79E00344E19 /* OpticFlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67EE1041CCFD79E00344E19 /* OpticFlow.cpp */; };
+		D67EE1111CCFD79E00344E19 /* KalmanFilterOneLane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67EE1061CCFD79E00344E19 /* KalmanFilterOneLane.cpp */; };
+		D67EE1121CCFD79E00344E19 /* DetectLanes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67EE1081CCFD79E00344E19 /* DetectLanes.cpp */; };
+		D67EE1131CCFD79E00344E19 /* matrixMethods.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67EE10A1CCFD79E00344E19 /* matrixMethods.cpp */; };
+		D67EE1141CCFD79E00344E19 /* IPM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67EE10C1CCFD79E00344E19 /* IPM.cpp */; };
+		D67EE1151CCFD79E00344E19 /* createFourPointsForIPM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67EE10E1CCFD79E00344E19 /* createFourPointsForIPM.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D67EE0F81CCFD69400344E19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D67EE0FA1CCFD69400344E19 /* FinalCodeLaneAversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinalCodeLaneAversion; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67EE0FD1CCFD69400344E19 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D67EE1041CCFD79E00344E19 /* OpticFlow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpticFlow.cpp; sourceTree = "<group>"; };
+		D67EE1051CCFD79E00344E19 /* OpticFlow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OpticFlow.hpp; sourceTree = "<group>"; };
+		D67EE1061CCFD79E00344E19 /* KalmanFilterOneLane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KalmanFilterOneLane.cpp; sourceTree = "<group>"; };
+		D67EE1071CCFD79E00344E19 /* KalmanFilterOneLane.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KalmanFilterOneLane.hpp; sourceTree = "<group>"; };
+		D67EE1081CCFD79E00344E19 /* DetectLanes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DetectLanes.cpp; sourceTree = "<group>"; };
+		D67EE1091CCFD79E00344E19 /* DetectLanes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DetectLanes.hpp; sourceTree = "<group>"; };
+		D67EE10A1CCFD79E00344E19 /* matrixMethods.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrixMethods.cpp; sourceTree = "<group>"; };
+		D67EE10B1CCFD79E00344E19 /* matrixMethods.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = matrixMethods.hpp; sourceTree = "<group>"; };
+		D67EE10C1CCFD79E00344E19 /* IPM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IPM.cpp; sourceTree = "<group>"; };
+		D67EE10D1CCFD79E00344E19 /* IPM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IPM.hpp; sourceTree = "<group>"; };
+		D67EE10E1CCFD79E00344E19 /* createFourPointsForIPM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = createFourPointsForIPM.cpp; sourceTree = "<group>"; };
+		D67EE10F1CCFD79E00344E19 /* createFourPointsForIPM.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = createFourPointsForIPM.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D67EE0F71CCFD69400344E19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D67EE0F11CCFD69400344E19 = {
+			isa = PBXGroup;
+			children = (
+				D67EE0FC1CCFD69400344E19 /* FinalCodeLaneAversion */,
+				D67EE0FB1CCFD69400344E19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D67EE0FB1CCFD69400344E19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D67EE0FA1CCFD69400344E19 /* FinalCodeLaneAversion */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D67EE0FC1CCFD69400344E19 /* FinalCodeLaneAversion */ = {
+			isa = PBXGroup;
+			children = (
+				D67EE0FD1CCFD69400344E19 /* main.cpp */,
+				D67EE1041CCFD79E00344E19 /* OpticFlow.cpp */,
+				D67EE1051CCFD79E00344E19 /* OpticFlow.hpp */,
+				D67EE1061CCFD79E00344E19 /* KalmanFilterOneLane.cpp */,
+				D67EE1071CCFD79E00344E19 /* KalmanFilterOneLane.hpp */,
+				D67EE1081CCFD79E00344E19 /* DetectLanes.cpp */,
+				D67EE1091CCFD79E00344E19 /* DetectLanes.hpp */,
+				D67EE10A1CCFD79E00344E19 /* matrixMethods.cpp */,
+				D67EE10B1CCFD79E00344E19 /* matrixMethods.hpp */,
+				D67EE10C1CCFD79E00344E19 /* IPM.cpp */,
+				D67EE10D1CCFD79E00344E19 /* IPM.hpp */,
+				D67EE10E1CCFD79E00344E19 /* createFourPointsForIPM.cpp */,
+				D67EE10F1CCFD79E00344E19 /* createFourPointsForIPM.hpp */,
+			);
+			path = FinalCodeLaneAversion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D67EE0F91CCFD69400344E19 /* FinalCodeLaneAversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67EE1011CCFD69400344E19 /* Build configuration list for PBXNativeTarget "FinalCodeLaneAversion" */;
+			buildPhases = (
+				D67EE0F61CCFD69400344E19 /* Sources */,
+				D67EE0F71CCFD69400344E19 /* Frameworks */,
+				D67EE0F81CCFD69400344E19 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalCodeLaneAversion;
+			productName = FinalCodeLaneAversion;
+			productReference = D67EE0FA1CCFD69400344E19 /* FinalCodeLaneAversion */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D67EE0F21CCFD69400344E19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = deebProject;
+				TargetAttributes = {
+					D67EE0F91CCFD69400344E19 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D67EE0F51CCFD69400344E19 /* Build configuration list for PBXProject "FinalCodeLaneAversion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D67EE0F11CCFD69400344E19;
+			productRefGroup = D67EE0FB1CCFD69400344E19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D67EE0F91CCFD69400344E19 /* FinalCodeLaneAversion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D67EE0F61CCFD69400344E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67EE1141CCFD79E00344E19 /* IPM.cpp in Sources */,
+				D67EE1151CCFD79E00344E19 /* createFourPointsForIPM.cpp in Sources */,
+				D67EE1121CCFD79E00344E19 /* DetectLanes.cpp in Sources */,
+				D67EE1131CCFD79E00344E19 /* matrixMethods.cpp in Sources */,
+				D67EE1111CCFD79E00344E19 /* KalmanFilterOneLane.cpp in Sources */,
+				D67EE0FE1CCFD69400344E19 /* main.cpp in Sources */,
+				D67EE1101CCFD79E00344E19 /* OpticFlow.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D67EE0FF1CCFD69400344E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D67EE1001CCFD69400344E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D67EE1021CCFD69400344E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D67EE1031CCFD69400344E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D67EE0F51CCFD69400344E19 /* Build configuration list for PBXProject "FinalCodeLaneAversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67EE0FF1CCFD69400344E19 /* Debug */,
+				D67EE1001CCFD69400344E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67EE1011CCFD69400344E19 /* Build configuration list for PBXNativeTarget "FinalCodeLaneAversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67EE1021CCFD69400344E19 /* Debug */,
+				D67EE1031CCFD69400344E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D67EE0F21CCFD69400344E19 /* Project object */;
+}
